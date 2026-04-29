@@ -17,3 +17,4 @@ common:
 	ADDON_SOURCES_EXCLUDE = libs/ImGuizmo/example%
 	ADDON_SOURCES_EXCLUDE += libs/ImGuizmo/bin%
 	ADDON_SOURCES_EXCLUDE += libs/ImGuizmo/vcpkg-example%
+	ADDON_SOURCES_EXCLUDE += libs/ImGuizmo/%
