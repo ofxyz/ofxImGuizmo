@@ -1,0 +1,12 @@
+*.ini
+
+# openFrameworks generated project/build artifacts
+example/bin/
+example/obj/
+example/config.make
+example/*.sln
+example/*.vcxproj
+example/*.vcxproj.*
+example/*.filters
+example/*.user
+example/icon.rc
