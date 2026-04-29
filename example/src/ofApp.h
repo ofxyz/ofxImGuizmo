@@ -12,20 +12,11 @@ public:
 	void draw();
 
 	void keyPressed(int key);
-	void keyReleased(int key);
-	void mouseMoved(int x, int y );
-	void mouseDragged(int x, int y, int button);
-	void mousePressed(int x, int y, int button);
-	void mouseReleased(int x, int y, int button);
-	void mouseEntered(int x, int y);
-	void mouseExited(int x, int y);
-	void windowResized(int w, int h);
-	void dragEvent(ofDragInfo dragInfo);
-	void gotMessage(ofMessage msg);
+
 private:
 	ofCamera cam_;
-	ImGuizmo::OPERATION op_;
-	ImGuizmo::MODE mode_;
+	ImGuizmo::OPERATION op_ = ImGuizmo::TRANSLATE;
+	ImGuizmo::MODE mode_ = ImGuizmo::LOCAL;
 	ofNode node_;
 	ofxImGui::Gui gui_;
 };
