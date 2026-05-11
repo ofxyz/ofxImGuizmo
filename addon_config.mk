@@ -10,6 +10,7 @@ common:
 	# the ImGuizmo submodule. See libs/UpdateImGuizmo.sh for refreshes.
 	ADDON_INCLUDES += libs/ImGuizmoVendored
 	ADDON_SOURCES += libs/ImGuizmoVendored/ImGuizmo.cpp
+	ADDON_SOURCES += libs/ImGuizmoVendored/ImCurveEdit.cpp
 
 	ADDON_INCLUDES_EXCLUDE = libs/ImGuizmo/example%
 	ADDON_INCLUDES_EXCLUDE += libs/ImGuizmo/bin%
