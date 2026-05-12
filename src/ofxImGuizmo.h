@@ -3,7 +3,6 @@
 #include "ofxImGui.h"
 #include "ImGuizmo.h"
 #include "ImCurveEdit.h"
-#include "ImVectorEditor.h"
 #include "ofCamera.h"
 #include "ofNode.h"
 #include <glm/gtx/matrix_decompose.hpp>
