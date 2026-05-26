@@ -1,5 +1,8 @@
 #pragma once
 
+// 2D bounding-box transform handle widget (header-only, no ECS dependency)
+#include "TransformHandle2D.h"
+
 #include "ofxImGui.h"
 #include "ImGuizmo.h"
 #include "ImCurveEdit.h"
